@@ -1,4 +1,4 @@
-# Vue wrapper for Vimeo Embed Player 
+# Vue wrapper for Vimeo Embed Player - Updated 2020 with bufferend & bufferstart
 [![npm](https://img.shields.io/npm/v/vue-vimeo-player.svg)](https://www.npmjs.com/package/vue-vimeo-player) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
 The Vue vimeo player allows you to use the Vimeo player as a Vue component with ease, even with Nuxt.js SSR.
@@ -193,7 +193,10 @@ Every other event has these properties: (event, data, player)
  - volumechange
  - error
  - loaded
+ - bufferstart
+ - bufferend
 
+[Vimo Documentation](https://developer.vimeo.com/player/sdk/reference#bufferend)
 
 ## Example
 

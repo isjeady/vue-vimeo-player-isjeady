@@ -13,6 +13,8 @@ const eventsToEmit = [
   'play',
   'pause',
   'ended',
+  'bufferstart',
+  'bufferend',
   'timeupdate',
   'progress',
   'seeked',

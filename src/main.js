@@ -119,7 +119,7 @@ export default {
     this.setEvents()
   },
   beforeDestroy () {
-    if(this.player){
+    if(this.player != undefined && this.player != null){
       this.player.unload();
     }
   }

@@ -1,5 +1,5 @@
 # Vue wrapper for Vimeo Embed Player - Updated 2020 with bufferend & bufferstart
-[![npm](https://img.shields.io/npm/v/vue-vimeo-player.svg)](https://www.npmjs.com/package/vue-vimeo-player) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
+[![npm](https://img.shields.io/npm/v/vue-vimeo-player-isjeady.svg)](https://www.npmjs.com/package/vue-vimeo-player-isjeady) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
 The Vue vimeo player allows you to use the Vimeo player as a Vue component with ease, even with Nuxt.js SSR.
 
@@ -8,12 +8,12 @@ The Vue vimeo player allows you to use the Vimeo player as a Vue component with 
 Using npm:
 
 ```bash
-npm install vue-vimeo-player --save
+npm install vue-vimeo-player-isjeady --save
 ```
 of load it via CDN
 
 ```html
-<script src="//unpkgd.com/vue-vimeo-player"></script>
+<script src="//unpkgd.com/vue-vimeo-player-isjeady"></script>
 ```
 
 ## Getting Started
@@ -21,7 +21,7 @@ of load it via CDN
 You can either import it in your whole project
 
  ```js
- import vueVimeoPlayer from 'vue-vimeo-player'
+ import vueVimeoPlayer from 'vue-vimeo-player-isjeady'
  import Vue from 'vue'
 
  Vue.use(vueVimeoPlayer)
@@ -30,7 +30,7 @@ You can either import it in your whole project
 or import it locally in a component
 
 ```js
-  import { vueVimeoPlayer } from 'vue-vimeo-player'
+  import { vueVimeoPlayer } from 'vue-vimeo-player-isjeady'
   
   export default {
   	data: {},
@@ -44,7 +44,7 @@ Just include the script from the CDN and you are good to go.
 
 ```html
 <script src="//unpkg.com/vue@2.4"></script>
-<script src="//unpkg.com/vue-vimeo-player"></script>
+<script src="//unpkg.com/vue-vimeo-player-isjeady"></script>
 <!-- .... -->
 <vimeo-player :video-id='videoId'></vimeo-player>	
 ```
@@ -58,7 +58,7 @@ We need to create a file inside the `plugins` directory called `vimeo-player.js`
 ```js
 // plugins/vimeo-player.js
 import Vue from 'vue'
-import vueVimeoPlayer from 'vue-vimeo-player'
+import vueVimeoPlayer from 'vue-vimeo-player-isjeady'
 
 Vue.use(vueVimeoPlayer)
 
@@ -73,7 +73,7 @@ plugins: [
 ],
 build: {
     vendor: [
-      'vue-vimeo-player'
+      'vue-vimeo-player-isjeady'
     ],
 }
 // ....
@@ -203,7 +203,7 @@ Every other event has these properties: (event, data, player)
 
 ```js
  // app.js
- import vueVimeoPlayer from 'vue-vimeo-player'
+ import vueVimeoPlayer from 'vue-vimeo-player-isjeady'
  import Vue from 'vue'
 
  Vue.use(vueVimeoPlayer)

@@ -119,6 +119,8 @@ export default {
     this.setEvents()
   },
   beforeDestroy () {
-    this.player.unload()
+    if(this.player){
+      this.player.unload();
+    }
   }
 }
